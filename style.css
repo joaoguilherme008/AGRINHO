@@ -1,0 +1,68 @@
+/* Reset básico e estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do cabeçalho */
+.header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header p {
+    margin-top: 0.5em;
+    font-size: 1.2em;
+}
+
+/* Estilo do contêiner principal */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+/* Estilo das seções de informações do evento */
+.event-info {
+    margin-bottom: 20px;
+}
+
+.event-info h2 {
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+    font-size: 1.5em;
+}
+
+.event-info p {
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+/* Estilo do rodapé */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
